@@ -9,7 +9,7 @@ Ninguna ronda se publica si hay ❌ en A/B/E-rojo. El diseño se evalúa ANTES q
 - [x] Tipografía moderna self-hosted: Space Grotesk + Manrope + IBM Plex Mono + Fraunces (acento) — v20
 - [x] Superficies minimalistas: hairlines y paneles agrupados, sin cajas sueltas ni rellenos — v18/v23
 - [x] Fotografía REAL del cliente integrada (10 fotos finales en slots) — v24
-- [ ] Cero placeholders visibles en producción — ⚠️ quedan stacks prod-* y prop-rapanui con badge (aceptado por el cliente hasta recibir sus videos)
+- [x] Cero placeholders visibles en producción — ✅ v26: badges y leyenda eliminados; prod stacks y prop con Ken Burns de fotos reales del cliente
 - [x] Contraste AA sobre media: hojas oscuras / text-shadow en ventanas — v19/v21
 - [x] Ritmo editorial: folios NN/NN, breaths, drop-cap Fraunces, pull-quotes, hairlines — v4/v17
 - [x] Micro-detalles: hover duotono→color, scramble HUD, grado por capítulo, REC monitores — v18-v24
@@ -31,6 +31,7 @@ Ninguna ronda se publica si hay ❌ en A/B/E-rojo. El diseño se evalúa ANTES q
 - [x] Ken Burns global 1.10→1 + parallax depth + tilt rotateX de hojas — v18/v20
 - [x] Capítulo de producto real (GoPro 11 Mini turntable) dentro del backbone — v24
 - [x] Line-mask reveals + split-words manuales i18n-safe — v18
+- [x] Interacción firma novedosa (jurado 2026): KNOB de sintonía arrastrable+teclado que gobierna scroll/espectro/film — v26
 - [x] Capa 3D (globo wireframe + arcos + partículas) con presupuesto por dispositivo — v3/v21/v23.1
 
 ## D · CONTENT (10%)
@@ -45,8 +46,8 @@ Ninguna ronda se publica si hay ❌ en A/B/E-rojo. El diseño se evalúa ANTES q
 - [x] ROJO: a11y Lighthouse CI ≥ .85 (assert error-level en CI) — v23
 - [x] ROJO: html-validate + budget de bundle en cada push — v23
 - [x] Fuentes ≤ 14 woff2 latin self-hosted, font-display swap — v20
-- [x] Videos scrub con faststart + keyframes densos; poster de respaldo — v21/v24
-- [ ] Perf Lighthouse headless ≥ .70 — ⚠️ 0.53 en CI (emulación penaliza video scrubbed); fluido verificado en campo móvil v21. Deuda aceptada, se revisitá con sprites/poster progresivo
+- [x] Videos scrub con faststart + keyframes densos; poster de respaldo; preloads LCP (poster+fonts) — v21/v24/v26
+- [ ] Perf Lighthouse headless ≥ .70 — ⚠️ DEUDA ACEPTADA 0.53-0.61 (emulación CPU4x + video scrub; field móvil fluido v21). Plan: poster progresivo + init diferido ScrollTrigger por sección
 - [x] og:image de marca + meta por sección + 404 — v24
 - [x] Sin dependencia de CDN externa (fonts, libs bundlerizadas) — v20/v23.1
 

@@ -21,6 +21,7 @@ Evidencia = marcador verificado en producción con curl (selector/asset/byte-ran
 | 23 | Web: hero/video desalineados; caps sobrecargadas; bloque sólido | Hero centrado + veil ligero; hojas fantasma; caps fila duotono sin REC | — | SS | 545f073 | `min-width:1101px`→v25 761 |
 | 23.1 | Auditoría técnica + herramientas gratis + skill departamento | audit.yml (LHCI+html-validate+budget); three.js diferido 708→178 kB; SKILL.md | LHCI runners GH | SS+KIT | 04fd4b7 | audit verde + reportes |
 | 24 | "Usa imágenes y videos proporcionados, publica" | 10 fotos reales en slots; GoPro 11 Mini = capítulo 2 backbone (concat 12.9 s); Ken Burns desde fotos reales; badges caps fuera; OG logo tormenta | ffmpeg concat/zoompan, read_file imágenes | SS | 593bb5c | fotos 206, badges caps 0 |
+| 26 | "Ajusta para cumplir TODOS los criterios, usa todos los recursos, aplica el flujo" | Gates G0-G7 completos: knob de sintonía firma (drag+teclado, sincroniza scroll/espectro/film); CERO placeholders (prop Ken Burns foto real, badges+leyenda fuera, mon-frame retirado); preloads poster+fonts; dossier con logo tormenta; caps 260-380px; loader 1.5s; backbone 4.1MB | ffmpeg zoompan, gsap, LHCI CI | SS+KIT | 3913462/2bcc0bb | knob html/css/js 1, badges 0, preloads 3, audit verde |
 | 25 | Checklist + registro + workflow + "no se refleja lo pedido"; diseño primero | CHECKLIST/TRACEABILITY/WORKFLOW en kit; BUILD tag visible; caps fila desde 761px; loader con logo de marca | — | KIT+SS | (este) | `BUILD v25` en HTML |
 
 ## Herramientas totales del departamento
