@@ -8,7 +8,7 @@ Ninguna ronda se publica si hay ❌ en A/B/E-rojo. El diseño se evalúa ANTES q
 - [x] Paleta oficial #ffffff / #1e73be / #494949 / #0085b2 sin temas ajenos — v2
 - [x] Tipografía moderna self-hosted: Space Grotesk + Manrope + IBM Plex Mono + Fraunces (acento) — v20
 - [x] Superficies minimalistas: hairlines y paneles agrupados, sin cajas sueltas ni rellenos — v18/v23
-- [x] Fotografía REAL del cliente integrada (10 fotos finales en slots) — v24
+- [x] Fotografía REAL del cliente integrada en TODOS los slots (caps, about, projects, exhibits, stacks de productos, thumbs, poster, OG) — v24/v28.1: cero imágenes de ejemplo en producción
 - [x] Cero placeholders visibles en producción — ✅ v26: badges y leyenda eliminados; prod stacks y prop con Ken Burns de fotos reales del cliente
 - [x] Contraste AA sobre media: hojas oscuras / text-shadow en ventanas — v19/v21
 - [x] Ritmo editorial: folios NN/NN, breaths, drop-cap Fraunces, pull-quotes, hairlines — v4/v17
@@ -46,8 +46,8 @@ Ninguna ronda se publica si hay ❌ en A/B/E-rojo. El diseño se evalúa ANTES q
 - [x] ROJO: a11y Lighthouse CI ≥ .85 (assert error-level en CI) — v23
 - [x] ROJO: html-validate + budget de bundle en cada push — v23
 - [x] Fuentes ≤ 14 woff2 latin self-hosted, font-display swap — v20
-- [x] Videos scrub con faststart + keyframes densos; poster de respaldo; preloads LCP (poster+fonts) — v21/v24/v26
-- [ ] Perf Lighthouse headless ≥ .70 — ⚠️ DEUDA ACEPTADA 0.53-0.61 (emulación CPU4x + video scrub; field móvil fluido v21). Plan: poster progresivo + init diferido ScrollTrigger por sección
+- [x] Videos scrub con faststart + keyframes densos; poster de respaldo; preloads LCP (poster+fonts); repo sin assets muertos (tx-hero/p-*/renders fuera) — v21-v28
+- [ ] Perf Lighthouse headless ≥ .70 — ⚠️ DEUDA ACEPTADA 0.57-0.61 tras mitigaciones v28 (scope rAF sólo visible, content-visibility, fotos -30%, three diferido, preloads). Field móvil fluido verificado. Plan restante: sprites de poster por capítulo
 - [x] og:image de marca + meta por sección + 404 — v24
 - [x] Sin dependencia de CDN externa (fonts, libs bundlerizadas) — v20/v23.1
 
