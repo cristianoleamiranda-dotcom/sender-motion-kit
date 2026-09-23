@@ -27,3 +27,10 @@ Honorable Mention ≥ 6.5 · SOTD recientes: 7.45–8.65.
 3. SplitText oficial + will-change audit (menos layout thrash).
 4. Página 404 de marca + OG por sección.
 5. Un "momento memorable" extra: morph del logo en preloader (MorphSVG gratis).
+
+## Benchmark 2026 (fuente: analisis Q1-2026 + jurado oficial)
+- 61% de SOTD Q1-2026 son experiencias inmersivas 3D (23% en Q1-2024); 29/47 con Three.js.
+- Narrativas scroll-driven puntuan +1.8 vs showcases estaticos (Web Almanac 2024-2026).
+- Creatividad 3D promedia 8.7 vs 6.4 flat; el jurado premia novedad de interaccion, no de layout.
+- Sender-site v23: narrativa film-scrub continua (scroll-driven ✓) + capa 3D ligera + editorial;
+  posicion: hibrido editorial-inmersivo, zona SOTD con usabilidad movil cerrada (v21-v23).

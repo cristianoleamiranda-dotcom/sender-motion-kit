@@ -27,3 +27,6 @@ Regla: si un efecto se usa dos veces, vive aquí como patrón numerado antes de 
   `actions/checkout@v4 with: submodules: recursive`.
 - Alternativas según necesidad: subtree (copia vendida), repo de assets con Git LFS
   (videos >100 MB), o repo de design-system consumido por npm/pkg.
+
+## Skill del departamento
+`SKILL.md` — skill completa (roles, proceso, motion, 3D, film, perf, playbook Awwwards 2026, toolchain, QA). Léela primero al briefar o auditar.
