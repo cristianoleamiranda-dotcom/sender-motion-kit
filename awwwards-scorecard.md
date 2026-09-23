@@ -3,7 +3,16 @@ Criterios oficiales (jurado ≥18 miembros, se descartan los 3 votos más alejad
 **Design 40% · Usability 30% · Creativity 20% · Content 10%.**
 Honorable Mention ≥ 6.5 · SOTD recientes: 7.45–8.65.
 
-## Autoevaluación ponderada (2026-09-23, post v13.1)
+## Autoevaluación ponderada (2026-09-23, v18 — spine cinemática)
+| Criterio | Peso | Nota | Evidencia |
+|---|---|---|---|
+| Design | 40% | 8.6 | Spine de película global (film-layer scrubbed + HUD + 3 respiraciones); hojas vidrio-grafito minimal transparentes; tarjetas sin relleno agrupadas en paneles hairline; paleta oficial |
+| Usability | 30% | 8.4 | i18n ES/EN 198/198; protocolo contraste (hojas oscuras + text-shadow en ventanas); dossier overlay (Esc, foco devuelto); anclas de capítulo; a11y base v16; offscreen-pause |
+| Creativity | 20% | 9.0 | Scroll = transporte de la película: 1 viaje continuo con ventanas sin marco; tilt rotateX+scale de hojas; line-mask reveals; parallax depth; tilt 3D del titular; GoPro scrub |
+| Content | 10% | 8.5 | Catálogo completo (15 familias en dossier), trayectoria EXHIBIT A–C, 4 productos, 2 proyectos, contacto real |
+| **Ponderado** | | **≈ 8.6** | Rango SOTD reciente 7.45–8.65: zona alta |
+
+## Autoevaluación histórica (2026-09-23, post v13.1)
 | Criterio | Peso | Nota | Evidencia / deuda |
 |---|---|---|---|
 | Design | 40% | 8.0 | Sistema de marca coherente (DESIGN.md), capa editorial, zonas negro-cine; deuda: consistencia del menú overlay en landscape móvil |
