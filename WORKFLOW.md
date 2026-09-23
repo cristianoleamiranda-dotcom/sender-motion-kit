@@ -9,6 +9,7 @@ performance y optimización entran en G6, nunca antes de que el diseño esté ap
 |---|---|---|
 | `sender-site` (main) | Producción + Pages auto-deploy | Único que toca el dominio público. Cada push = deploy + audit CI. Commits semánticos `feat/fix/docs(vNN)`. |
 | `sender-site-lab` | Sandbox de dirección creativa | Prueba conceptos rompedores sin riesgo; `compara.html` con iframes A/B lado a lado. Se sincroniza DESPUÉS de cada round aprobado (nunca al revés; su `vendor/` es copia plana, no submodule). |
+| `sender-fx-lab` | Repo EXCLUSIVO de efectos scroll/3D/film: demos aislados P01/P14/P15/P07/P06 con Pages propia (cristianoleamiranda-dotcom.github.io/sender-fx-lab). Todo efecto nuevo se prototipa aqui antes de tocar produccion. |
 | `sender-motion-kit` | Cerebro del departamento | `SKILL.md` (skill completa), `CHECKLIST.md` (gates), `TRACEABILITY.md` (rendición de cuentas), `patterns.md` P01-P14, `awwwards-scorecard.md`, `resources.md`, `youtube-sop.md`, `toolchain.md`, `docs/video-prompts.md`. |
 | `vendor/motion-kit` (submodule en main) | Patterns upstream versionados | checkout recursivo en CI. No copiar encima desde el lab. |
 

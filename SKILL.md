@@ -62,6 +62,8 @@ Documentos de control del departamento: `CHECKLIST.md` (gates de diseño/técnic
 
 ## S3 · 3D / WebGL con presupuesto
 
+Prototipos de efectos viven en `sender-fx-lab` (repo dedicado): nunca se experimenta en produccion.
+
 - 2026: 61% de SOTD Q1-2026 son inmersivos 3D (29/47 con Three.js); creatividad 3D promedia 8.7 vs 6.4 flat.
 - Nuestra capa: globo wireframe + arcos de señal + partículas fly-through (`bg3d.js`, z bajo, op .45).
 - **Prespuesto por dispositivo**: `matchMedia('(pointer: coarse), (max-width: 1100px)')` →
