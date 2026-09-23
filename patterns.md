@@ -46,3 +46,11 @@ SVG `<textPath>` sobre círculo + `animation: rotate 26s linear infinite`. Dónd
 ## P12 · Keynote 4-vistas crossfade por scroll
 Media sticky 100vh; `idx = floor(progress*4)`; toggle `.on` en imgs + dots; si existe
 `prod-*.mp4` → scrub del video en vez de vistas. Dónde: `#catalogo` productos.
+
+## P13 · Cursor glow de marca (desktop only)
+Div fixed 340px radial cyan .10 mix-blend screen, lerp .12 por rAF; solo
+`matchMedia('(pointer: fine)')` y fuera de reduced-motion. Dónde: global v14.
+
+## P14 · Keynote zoom+rotate scrub
+En el onUpdate del producto: `scale(1+p*.10) rotateY((p-.5)*5deg)` aplicado al stack y
+al video → el media "respira" 3D mientras rotas vistas. Dónde: `.prod` v14.

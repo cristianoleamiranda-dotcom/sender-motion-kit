@@ -23,3 +23,15 @@ Veredicto: ✅ EN USO · 📖 REFERENCIA · ❌ DESCARTADO (motivo).
 ## Próximos candidatos (cuando lleguen tus links de YouTube)
 SplitText oficial · ScrollSmoother · MorphSVG (logo morph en preloader) ·
 View Transitions API para rutas · `content-visibility` en secciones largas.
+
+---
+
+## Análisis de los 4 videos YouTube enviados (2026-09-23, SOP-B)
+| Video | Contenido | Veredicto por técnica |
+|---|---|---|
+| Da7ZuhyWACg — Claude Opus 5.5 (3D, Web Design, Animation) | test de agente IA para UI/3D/anim | ✅ valida nuestro flujo Arena+GitHub multi-repo (equivalente a Claude Code); ✅ cursor-reactive glow → P13 |
+| DJMsXSr1jec — $10k AI 3D Websites in 10 min (Antigravity) | Apple-style 3D product pages | ✅ zoom/rotate scrub del media keynote → P14; ❌ splat/model-viewer: sin assets 3D reales de Sender |
+| y1pM7bS6IY8 — Interactive 3D Website (Gemini 3.8 Flash) | sitio 3D interactivo con agente | ✅ principios ya cubiertos (sticky media, scrub); ❌ WebGL interactivo pesado: penaliza Usability 30% en gama media |
+| mFgRGSOGNPM — $10k 3D Animated Websites (Claude Code + Seedance 2.5) | videos cinemáticos generados + build agente | ✅ plantilla de prompt Seedance/v3 camera-first → docs/video-prompts.md; ✅ workflow agente+repo = el nuestro |
+Regla aplicada: se adopta solo lo que suma a Design+Usability (70% del score Awwwards);
+lo 3D-interactivo pesado se descarta con motivo (performance móvil).
