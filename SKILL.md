@@ -23,6 +23,10 @@ de 2026: un solo archivo ejecutable por cualquier agente o humano del departamen
 
 ## S0 · Proceso por ronda (no saltar pasos)
 
+Documentos de control del departamento: `CHECKLIST.md` (gates de diseño/técnicos),
+`TRACEABILITY.md` (pedido→entrega→herramienta→repo→commit→evidencia), `WORKFLOW.md`
+(repos propios/externos, herramientas gratis, gates G0-G7, protocolo anti-cache).
+
 1. Brief con datos REALES del cliente (nunca copy placeholder en producción).
 2. Referencias: 2–4 videos YouTube + 2 repos SOTD-clone → extraer PATRONES, no copiar.
 3. Sistema: paleta oficial + tipografías self-hosted + grid hairline + lenguaje de motion.
