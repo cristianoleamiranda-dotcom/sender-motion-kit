@@ -1,0 +1,41 @@
+name: JUMP review render
+
+on:
+  push:
+    branches: [feat/jump-cinematic-edit-v01]
+    paths:
+      - 'projects/jump/**'
+  workflow_dispatch:
+
+jobs:
+  render-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: projects/jump
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: projects/jump/package.json
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64 libpango-1.0-0 libcairo2
+      - name: Install dependencies
+        run: npm install
+      - name: Download approved source photographs
+        run: npm run assets
+      - name: Ensure Chromium
+        run: npx remotion browser ensure
+      - name: Render 720p review
+        run: npm run render:review
+      - uses: actions/upload-artifact@v4
+        with:
+          name: JUMP-review-720x1280
+          path: projects/jump/out/JUMP-review-720x1280.mp4
+          if-no-files-found: error
+          retention-days: 14
