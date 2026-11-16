@@ -1,0 +1,23 @@
+{
+  "name": "jump-cinematic-edit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "16-second vertical cinematic photo edit",
+  "scripts": {
+    "assets": "node scripts/fetch-assets.mjs",
+    "preview": "remotion studio src/index.ts",
+    "render:review": "remotion render src/index.ts JumpReview out/JUMP-review-720x1280.mp4 --codec h264 --crf 18 --scale 0.6666667",
+    "render:master": "remotion render src/index.ts JumpMaster out/JUMP-master-1080x1920.mp4 --codec h264 --crf 17"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.332",
+    "@remotion/google-fonts": "4.0.332",
+    "remotion": "4.0.332",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
